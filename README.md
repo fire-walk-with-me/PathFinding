@@ -18,6 +18,6 @@ In both a cyclical graph and a directed acyclical graph it will find the shortes
 Has a time complexity of O(V^2).
 Dijkstras algorithm will find the shortest path in a weighted graph, however it can not handle negative weights.
 
-** A* **
+**A-Star**
 Has a time complexity of O(b^d), where b is branching factor and d is the number of nodes in the resulting path.
 A* will find the shortest path in a weighted graph, and because it uses heuristics it useually perfomces better than its worst case scenario.
